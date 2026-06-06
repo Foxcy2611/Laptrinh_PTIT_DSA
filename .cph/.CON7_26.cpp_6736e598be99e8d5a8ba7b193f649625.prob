@@ -1,0 +1,1 @@
+{"name":"Local: CON7_26","url":"d:\\BTCODE\\Laptrinh_PTIT_DSA\\CON7_26.cpp","tests":[{"id":1778169466906,"input":"3\n((a+b))\n(a + (b)/c)\n(a + b*(c-d))","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\BTCODE\\Laptrinh_PTIT_DSA\\CON7_26.cpp","group":"local","local":true}

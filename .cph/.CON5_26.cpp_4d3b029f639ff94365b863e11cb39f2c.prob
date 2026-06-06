@@ -1,0 +1,1 @@
+{"name":"Local: CON5_26","url":"d:\\BTCODE\\Laptrinh_PTIT_DSA\\CON5_26.cpp","tests":[{"id":1775027389451,"input":"1\n259 5\n81\n58\n42\n33\n61","output":"\n242   "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\BTCODE\\Laptrinh_PTIT_DSA\\CON5_26.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: CON6_01","url":"d:\\BTCODE\\Laptrinh_PTIT_DSA\\CON6_SapXep\\CON6_01.cpp","tests":[{"id":1780738565101,"input":"2\n7\n7 1 2 3 4 5 6\n8\n1 6 9 4 3 7 8 2","output":"7 1 6 2 5 3 4\n9 1 8 2 7 3 6 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\BTCODE\\Laptrinh_PTIT_DSA\\CON6_SapXep\\CON6_01.cpp","group":"local","local":true}
