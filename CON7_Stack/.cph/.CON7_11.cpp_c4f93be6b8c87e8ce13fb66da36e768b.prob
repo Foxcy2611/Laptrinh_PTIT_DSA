@@ -1,0 +1,1 @@
+{"name":"Local: CON7_11","url":"d:\\BTCODE\\Laptrinh_PTIT_DSA\\CON7_Stack\\CON7_11.cpp","tests":[{"id":1781119860269,"input":"2\n(A+(B+C)\n((A*B)+C)","output":"ABC++\nAB*C+"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\BTCODE\\Laptrinh_PTIT_DSA\\CON7_Stack\\CON7_11.cpp","group":"local","local":true}

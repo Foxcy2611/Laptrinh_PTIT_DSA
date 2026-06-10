@@ -1,0 +1,1 @@
+{"name":"Local: CON8_15","url":"d:\\BTCODE\\Laptrinh_PTIT_DSA\\CON8_Queue\\CON8_15.cpp","tests":[{"id":1781104246686,"input":"1\n3 3\n2 1 2\n1 1 1\n1 1 1","output":"2   a"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\BTCODE\\Laptrinh_PTIT_DSA\\CON8_Queue\\CON8_15.cpp","group":"local","local":true}
