@@ -16,21 +16,19 @@ ll applyOp(ll a, ll b, char op) {
         case '+': return a + b;
         case '-': return a - b;
         case '*': return a * b;
-        case '/': return (b != 0) ? a / b : 0; // Thêm check chia 0 cho an toàn
+        case '/': return (b != 0) ? a / b : 0; 
     }
     return 0;
 }
 
 void solve() {
     string s;
-    getline(cin, s); // ĐỌC NGUYÊN DÒNG, KHÔNG DÙNG cin >> s
+    getline(cin, s);
     
     stack<ll> values; 
     stack<char> ops;  
 
-    for (int i = 0; i < s.length(); i++) {
-        
-        // Nhảy qua khoảng trắng
+    for(int i = 0; i < s.length(); i++) {
         if (s[i] == ' ') continue;
 
         if (s[i] == '(') {
@@ -47,22 +45,29 @@ void solve() {
         } 
         else if (s[i] == ')') {
             while (!ops.empty() && ops.top() != '(') {
-                // Phòng thủ RTE khi stack không đủ số
+
                 if (values.size() < 2) break; 
+
                 ll val2 = values.top(); values.pop();
                 ll val1 = values.top(); values.pop();
-                char op = ops.top(); ops.pop();
+
+                char op = ops.top(); 
+                ops.pop();
+
                 values.push(applyOp(val1, val2, op));
             }
             if (!ops.empty() && ops.top() == '(') ops.pop(); 
         } 
-        // Bắt đích danh toán tử để tránh các ký tự rác
         else if (s[i] == '+' || s[i] == '-' || s[i] == '*' || s[i] == '/') {
             while (!ops.empty() && precedence(ops.top()) >= precedence(s[i])) {
                 if (values.size() < 2) break;
+
                 ll val2 = values.top(); values.pop();
                 ll val1 = values.top(); values.pop();
-                char op = ops.top(); ops.pop();
+
+                char op = ops.top(); 
+                ops.pop();
+                
                 values.push(applyOp(val1, val2, op));
             }
             ops.push(s[i]);

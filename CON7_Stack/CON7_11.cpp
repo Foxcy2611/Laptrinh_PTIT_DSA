@@ -43,7 +43,7 @@ void Solve(){
             if(!st.empty()) st.pop();
         } else {
             while(! st.empty() && precedence(st.top()) >= precedence(c)){
-                res+= st.top();
+                res += st.top();
                 st.pop();
             }
             st.push(c);

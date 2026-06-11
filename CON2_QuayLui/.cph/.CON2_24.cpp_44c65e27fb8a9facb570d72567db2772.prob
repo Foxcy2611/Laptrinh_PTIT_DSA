@@ -1,0 +1,1 @@
+{"name":"Local: CON2_24","url":"d:\\BTCODE\\Laptrinh_PTIT_DSA\\CON2_QuayLui\\CON2_24.cpp","tests":[{"id":1781179004359,"input":"2\n5 50\n5 10 15 20 25\n8 53\n15 22 14 26 32 9 16 8","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\BTCODE\\Laptrinh_PTIT_DSA\\CON2_QuayLui\\CON2_24.cpp","group":"local","local":true}

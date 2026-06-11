@@ -7,7 +7,7 @@ const int MOD = 1e9 + 7;
 
 /*
 - Dùng stack lưu chuỗi ký tự và thực hiện ghép chuỗi
-1. Duyệt trái qua
+1. Duyệt phải qua
 2. Gặp toán hạng, đẩy nó vào stack
 3. Nếu gặp toán tử
 + Lấy chuỗi ở đỉnh stack ra làm toán hạng bên phải (op1)
